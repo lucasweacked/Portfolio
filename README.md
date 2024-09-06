@@ -4,7 +4,7 @@ Bem-vindo ao meu cantinho na web! 🌍 Este é o meu portfólio pessoal onde com
 
 ## 📋 O que você vai encontrar aqui?
 
-- **Sobre mim:** Quem é Lucas Barros? Quais são minhas paixões e interesses? Spoiler: Tem programação, moda e cinema no meio.
+- **Sobre mim:** Quem é Lucas Barros Simon? Quais são minhas paixões e interesses? Spoiler: Tem programação, moda e cinema no meio.
 - **Projetos:** Algumas das minhas criações, como uma calculadora em Java e um banco de dados de cinema feito com HTML, CSS e JS. 🎥💻
 - **Serviços:** O que eu posso fazer por você? Desenvolvimento front-end, design de sites, otimização e performance – é só escolher!
 - **Depoimentos:** Palavras bonitas de pessoas legais que já trabalharam comigo. 💬
