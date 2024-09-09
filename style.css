@@ -52,6 +52,7 @@ nav a:hover {
     align-items: flex-start;
     padding: 100px 50px;
     gap: 20px;
+    text-align: justify;
 }
 
 .quadrado {
@@ -105,6 +106,7 @@ nav a:hover {
 .formacao ul {
     list-style: none;
     padding: 0;
+    text-align: justify;
     font-size: 24px;
     line-height: 1.4;
 }
@@ -166,6 +168,7 @@ nav a:hover {
     line-height: 1.6;
     margin: 0;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .github-link {
@@ -221,6 +224,7 @@ nav a:hover {
     margin: 0.5rem 0 0;
     color: #ffffff;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .depoimentos {
