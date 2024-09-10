@@ -9,14 +9,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 20px;
+    padding: 0.5rem 1.25rem;
     background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    box-shadow: 0 2px 4px #0000001a;
+    box-shadow: 0 0.125rem 0.25rem #0000001a;
 }
 
 header .logo {
@@ -24,13 +24,13 @@ header .logo {
 }
 
 header .logo img {
-    height: 60px;
+    height: 3.75rem;
 }
 
 nav {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -50,8 +50,8 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 100px 50px;
-    gap: 20px;
+    padding: 6.25rem 3.125rem;
+    gap: 1.25rem;
     text-align: justify;
 }
 
@@ -59,9 +59,9 @@ nav a:hover {
     flex: 1;
     background-color: #0052cc;
     color: #fff;
-    padding: 20px;
+    padding: 1.25rem;
     height: auto;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     box-sizing: border-box;
 }
 
@@ -69,37 +69,37 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 37px;
+    padding: 2.312rem;
     height: auto;
     box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     background-color: #0052cc;
     color: #fff;
 }
 
 .descricao h2 {
-    margin-bottom: 10px;
-    font-size: 28px;
+    margin-bottom: 0.625rem;
+    font-size: 1.75rem;
     font-weight: 600;
 }
 
 .descricao p {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.4;
-    margin: 10px 0;
+    margin: 0.625rem 0;
 }
 
 .formacao {
     background-color: #38474E;
     color: #fff;
-    padding: 20px;
-    margin: -30px 50px 50px;
-    border-radius: 15px;
+    padding: 1.25rem;
+    margin: -1.875rem 3.125rem 3.125rem;
+    border-radius: 0.9375rem;
 }
 
 .formacao h3 {
-    margin-bottom: 10px;
-    font-size: 28px;
+    margin-bottom: 0.625rem;
+    font-size: 1.75rem;
     font-weight: 600;
 }
 
@@ -107,24 +107,24 @@ nav a:hover {
     list-style: none;
     padding: 0;
     text-align: justify;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 1.4;
 }
 
 .formacao ul li {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .projetos {
-    padding: 50px;
+    padding: 3.125rem;
     background-color: #ffffff;
 }
 
 .projetos h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     color: #000000;
 }
 
@@ -132,25 +132,25 @@ nav a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .projeto {
-    flex: 1 1 calc(50% - 20px);
-    max-width: 800px;
-    padding: 20px;
+    flex: 1 1 calc(50% - 1.25rem);
+    max-width: 50rem;
+    padding: 1.25rem;
     /* background-color: #0052cc; */
     background-color: #081B2A;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     box-shadow: none;
     color: #ffffff;
     box-sizing: border-box;
 }
 
 .projeto h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .projeto a {
@@ -165,10 +165,10 @@ nav a:hover {
 }
 
 .projeto p {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.6;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-align: justify;
 }
 
@@ -177,7 +177,7 @@ nav a:hover {
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 
 .github-link:hover {
@@ -190,9 +190,9 @@ nav a:hover {
 
 .servicos h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     color: #000000;
 }
 
@@ -204,11 +204,11 @@ nav a:hover {
 
 .servico {
     background: #38474E;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px #0000001a;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem #0000001a;
     margin: 1rem;
     padding: 1rem;
-    flex: 1 1 250px;
+    flex: 1 1 15.62rem;
     transition: transform 0.3s ease;
 }
 
@@ -229,29 +229,29 @@ nav a:hover {
 }
 
 .depoimentos {
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     text-align: center;
 }
 
 .depoimentos h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .depoimentos-lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .depoimento {
     background: #38474E;
-    border-radius: 8px;
-    padding: 20px;
-    max-width: 300px;
-    box-shadow: 0 4px 8px #0000001a;
-    flex: 1 1 300px;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    max-width: 18.75rem;
+    box-shadow: 0 0.25rem 0.5rem #0000001a;
+    flex: 1 1 18.75rem;
     box-sizing: border-box;
     text-align: center;
     transition: transform 0.3s ease;
@@ -265,7 +265,7 @@ nav a:hover {
     font-size: 1.1rem;
     font-style: italic;
     color: #ffffff;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .depoimento span {
@@ -276,16 +276,16 @@ nav a:hover {
 
 .contato h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     color: #000000;
 }
 
 .mensagem-contato {
     text-align: center;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
     color: #333;
 }
 
@@ -295,28 +295,28 @@ nav a:hover {
 
 .contato p {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #fff;
-    border-top: 1px solid #ddd;
+    border-top: 0.0625rem solid #ddd;
 }
 
 .redes-sociais {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .redes-sociais a {
-    margin: 0 8px;
+    margin: 0 0.5rem;
     display: inline-block;
 }
 
 .redes-sociais img {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     transition: transform 0.3s ease;
 }
 
@@ -325,19 +325,19 @@ footer {
 }
 
 footer p {
-    margin: 10px 0 0;
-    font-size: 16px;
+    margin: 0.625rem 0 0;
+    font-size: 1rem;
     color: #555;
 }
 
 section {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     .sobre-mim {
         flex-direction: column;
-        padding: 80px 20px;
+        padding: 5rem 1.25rem;
     }
 
     .projetos-container {
@@ -350,7 +350,7 @@ section {
     }
 
     .formacao {
-        margin: -30px 20px 50px;
+        margin: -1.875rem 1.25rem 3.125rem;
     }
 
     .servicos-container {
@@ -359,28 +359,28 @@ section {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 30rem) {
     .sobre-mim {
-        padding: 60px 10px;
+        padding: 3.75rem 0.625rem;
     }
 
     .projeto p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .descricao h2, .formacao h3, .projetos h2, .projeto h3, .servicos h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .descricao p, .formacao ul, .projeto p {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .formacao {
-        margin: -30px 10px 30px;
+        margin: -1.875rem 0.625rem 1.875rem;
     }
 
     footer p {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }
