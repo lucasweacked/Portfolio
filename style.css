@@ -353,6 +353,8 @@ section {
     scroll-margin-top: 5rem;
 }
 
+/* Recursividade */
+
 @media (max-width: 48rem) {
     .sobre-mim {
         flex-direction: column;
