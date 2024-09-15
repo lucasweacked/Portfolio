@@ -172,18 +172,6 @@ nav a:hover {
     text-align: justify;
 }
 
-.github-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 2rem;
-}
-
-.github-link:hover {
-    text-decoration: underline;
-}
-
 .servicos {
     padding: 2rem;
 }
