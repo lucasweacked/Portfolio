@@ -2,7 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #f6f6f6;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1.25rem;
-    background-color: #fff;
+    background-color: #f6f6f6;
     position: fixed;
     top: 0;
     left: 0;
@@ -37,12 +37,12 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #000;
+    color: #000000;
     font-weight: 600;
 }
 
 nav a:hover {
-    color: #333;
+    color: #333333;
     text-decoration: underline;
 }
 
@@ -58,7 +58,7 @@ nav a:hover {
 .quadrado {
     flex: 1;
     background-color: #0052cc;
-    color: #fff;
+    color: #f6f6f6;
     padding: 1.25rem;
     height: auto;
     border-radius: 0.9375rem;
@@ -74,7 +74,7 @@ nav a:hover {
     box-sizing: border-box;
     border-radius: 0.9375rem;
     background-color: #0052cc;
-    color: #fff;
+    color: #f6f6f6;
 }
 
 .descricao h2 {
@@ -91,7 +91,7 @@ nav a:hover {
 
 .formacao {
     background-color: #38474E;
-    color: #fff;
+    color: #f6f6f6;
     padding: 1.25rem;
     margin: -1.875rem 3.125rem 3.125rem;
     border-radius: 0.9375rem;
@@ -115,9 +115,14 @@ nav a:hover {
     margin-bottom: 1.25rem;
 }
 
+.formacao ul a {
+    text-decoration: none;
+    color: #008CBA;
+}
+
 .projetos {
     padding: 3.125rem;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
 }
 
 .projetos h2 {
@@ -143,7 +148,7 @@ nav a:hover {
     background-color: #081B2A;
     border-radius: 0.9375rem;
     box-shadow: none;
-    color: #ffffff;
+    color: #f6f6f6;
     box-sizing: border-box;
 }
 
@@ -154,7 +159,7 @@ nav a:hover {
 }
 
 .projeto a {
-    color: #ffffff;
+    color: #f6f6f6;
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
@@ -206,12 +211,12 @@ nav a:hover {
 
 .servico h3 {
     margin-top: 0;
-    color: #ffffff;
+    color: #f6f6f6;
 }
 
 .servico p {
     margin: 0.5rem 0 0;
-    color: #ffffff;
+    color: #f6f6f6;
     line-height: 1.6;
     text-align: justify;
 }
@@ -252,14 +257,14 @@ nav a:hover {
 .depoimento p {
     font-size: 1.1rem;
     font-style: italic;
-    color: #ffffff;
+    color: #f6f6f6;
     margin-bottom: 0.625rem;
 }
 
 .depoimento span {
     display: block;
     font-size: 1rem;
-    color: #ffffff;
+    color: #f6f6f6;
 }
 
 .contato h2 {
@@ -274,7 +279,7 @@ nav a:hover {
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 1.25rem;
-    color: #333;
+    color: #333333;
 }
 
 .contato h3 {
@@ -298,7 +303,7 @@ nav a:hover {
 
 .contato-info a {
     text-decoration: none;
-    color: #333;
+    color: #333333;
 }
 
 .contato-info strong {
@@ -308,8 +313,8 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 1.25rem;
-    background-color: #fff;
-    border-top: 0.0625rem solid #ddd;
+    background-color: #f6f6f6;
+    border-top: 0.0625rem solid #f6f6f6;
 }
 
 .redes-sociais {
@@ -334,7 +339,7 @@ footer {
 footer p {
     margin: 0.625rem 0 0;
     font-size: 1rem;
-    color: #555;
+    color: #555555;
 }
 
 section {
@@ -406,7 +411,7 @@ section {
 
     .contato p {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-start; /* Alinha os itens à esquerda em telas menores */
         text-align: center;
         gap: 0.5rem;
         align-items: center;
