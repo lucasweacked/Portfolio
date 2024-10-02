@@ -196,7 +196,7 @@ nav a:hover {
 }
 
 .servico {
-    background: #38474E;
+    background: #222831;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem #0000001a;
     margin: 1rem;
@@ -239,7 +239,7 @@ nav a:hover {
 }
 
 .depoimento {
-    background: #38474E;
+    background: #272829;
     border-radius: 0.5rem;
     padding: 1.25rem;
     max-width: 18.75rem;
@@ -411,7 +411,7 @@ section {
 
     .contato p {
         flex-direction: column;
-        align-items: flex-start; /* Alinha os itens à esquerda em telas menores */
+        align-items: flex-start;
         text-align: center;
         gap: 0.5rem;
         align-items: center;
